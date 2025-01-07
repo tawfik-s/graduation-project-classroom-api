@@ -21,8 +21,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class SecurityConfiguration {
 
-    @Autowired
-    private JwtAuthenticationFilter jwtAuthFilter;
+    private final JwtAuthenticationFilter jwtAuthFilter;
 
     private final AuthenticationProvider authenticationProvider;
 
