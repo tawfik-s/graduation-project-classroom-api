@@ -70,12 +70,12 @@ These properties control how Hibernate manages the database schema and SQL logs.
 
 ### Logging Configuration
 This section configures logging levels for the application.
-In this example, the logging level for the package com.tawfeek.quizApi is set to DEBUG.
+In this example, the logging level for the package com.tawfeek.quiz_api is set to DEBUG.
 
 ```yaml
 logging:
   level:
-    com.tawfeek.quizApi: DEBUG
+    com.tawfeek.quiz_api: DEBUG
 
 ```
 You can customize logging levels for different packages or classes based on your debugging needs.
